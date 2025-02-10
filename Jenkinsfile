@@ -39,7 +39,7 @@ stages
 
 
 }
-}
+
 
 
 //sh 'scp -o StrictHostKeyChecking=no  '
