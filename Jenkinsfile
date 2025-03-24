@@ -29,7 +29,7 @@ stages
   stage ('deploy the code on tomcat')
   {steps {  
     sshagent(['DEVCICD']) {
-    sh 'scp -o StrictHostKeyChecking=no webapp/target/webapp.war ec2-user@172.31.9.214:/usr/share/tomcat/webapps'
+    sh 'scp -o StrictHostKeyChecking=no webapp/target/webapp.war ec2-user@13.203.207.118:/usr/share/tomcat/webapps'
 }
     
 }
